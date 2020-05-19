@@ -1,0 +1,10 @@
+#To run the script from unknown sources (digitally not sign error) 
+Set-ExecutionPloicy unrestricted  
+
+#To solution as a Deployment workbench failed to load because of the PowerShell is not install error. 
+#Even if its PowerShell installed with latest version.
+Set-ExecutionPolicy RemoteSigned -Force 
+
+
+
+ 
